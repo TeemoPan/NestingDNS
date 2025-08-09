@@ -1,5 +1,5 @@
 # smartdns
-FROM pymumu/smartdns:latest AS smartdns-builder
+FROM pymumu/smartdns:Release46 AS smartdns-builder
 LABEL previous-stage=smartdns-builder
 
 # mosdns
